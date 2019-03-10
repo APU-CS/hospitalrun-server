@@ -3,7 +3,7 @@ services:
   nginx:
     build:
       args:
-        DOMAIN_NAME: www.example.com
+        DOMAIN_NAME: www.nhiproject.com
         SSL_TYPE: auto
       context: nginx/.
       dockerfile: Dockerfile
